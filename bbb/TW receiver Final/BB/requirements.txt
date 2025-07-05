@@ -1,0 +1,17 @@
+# START OF FILE requirements.txt
+
+# Bot framework for handling Telegram Bot API
+python-telegram-bot==21.0.1
+
+# Library for automating user accounts (Telethon client)
+telethon==1.34.0
+
+# For scheduling tasks, like the account confirmation checks
+apscheduler==3.10.4
+
+# For rich, colorful logging in the console
+rich==13.7.1
+
+# Required by APScheduler's SQLiteJobStore
+SQLAlchemy==2.0.29
+# END OF FILE requirements.txt
